@@ -18,7 +18,7 @@ h1
     margin:0;
     padding:0;
     color:#fff;
-    font-size: 16em;
+    font-size: 14em;
 }
 h1 span
 {
@@ -52,6 +52,22 @@ h1 span:nth-child(6)
 {
     animation-delay: 1.25s;
 }
+h1 span:nth-child(7)
+{
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 1.75s;
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 2s;
+}
+h1 span:nth-child(10)
+{
+    animation-delay: 2.25s;
+}
 @keyframes animate
 {
     0%,100%
@@ -63,7 +79,11 @@ h1 span:nth-child(6)
                     0 0 40px #00b3ff,
                     0 0 80px #00b3ff,
                     0 0 120px #00b3ff,
-                    0 0 200px #00b3ff;
+                    0 0 200px #00b3ff,
+                    0 0 300px #00b3ff,
+                    0 0 400px #00b3ff,
+                    0 0 600px #00b3ff,
+                    0 0 700px #00b3ff;
                
     }
     5%,95%
